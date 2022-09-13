@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    text-align: center;
+
+}
+
+* {
+    font-family: 'Indie Flower', cursive;
+}
+
+.background{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+
+.buttons {
+    display: inline-block;
+    padding: 0.7em 1.4em;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 0.15em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #FFFFFF;
+    background-color: #3369ff;
+    box-shadow: inset 0 -0.6em 0 -0.35em rgba(0, 0, 0, 0.17);
+    text-align: center;
+    position: relative;
+}
+
+.productCard {
+    background-color: white;
+    width: 200px;
+    border-bottom: solid dodgerblue;
+    text-align: center;
+    position: relative;
+}
+
+.cardContainer {
+    background-color: #0688fa;
+    border-radius: 5%;
+    padding: 100px;
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 5%;
+    row-gap: 5%;
+    justify-content: center;
+    padding-top: 2.5%;
+    vertical-align: auto;
+    margin: 0;
+}
+
+.nav-list {
+    margin: 0;
+
+}
+.nav-list span {
+    background-color: #0688fa;
+    padding: 0 10% 0 10%;
+    border-radius: 10% 10% 0 0;
+}
+
+
+
+.increment {
+    border: 1px outset green;
+    background-color: rgb(173, 230, 192);
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+}
+
+.decrement {
+    border: 1px outset red;
+    background-color: rgb(230, 173, 192);
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+}
+
+.checkout {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 100%;
+}
+
+.cartTotal {
+    height: 20px;
+    width: 20px;
+    font-size: 18px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.cartBtn {
+    bottom: 10px;
+    box-shadow: inset 0px -3px 7px 0px #29bbff;
+    background: linear-gradient(to bottom, #2dabf9 5%, #0688fa 100%);
+    background-color: #2dabf9;
+    border-radius: 42px;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Trebuchet MS;
+    font-size: 15px;
+    padding: 9px 23px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #263666;
+}
+
+.cartBtn:hover {
+    background: linear-gradient(to bottom, #0688fa 5%, #2dabf9 100%);
+    background-color: #0688fa;
+}
+
+.cartBtn:active {
+    position: relative;
+    top: 1px;
+}
+
+
+.hidden {
+    display: none;
+}
+
+
